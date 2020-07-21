@@ -14,8 +14,8 @@ module.exports = {
 
 	entry: {
 		'index': path.resolve( process.cwd(), 'blocks/blocks.js' ),
-		'editor': path.resolve( process.cwd(), 'blocks/editor.scss' ),
-		'style': path.resolve( process.cwd(), 'blocks/style.scss' ),
+		'editor': path.resolve( process.cwd(), 'blocks/testimonial/styles/styles.editor.scss' ),
+		'style': path.resolve( process.cwd(), 'blocks/testimonial/styles/style.scss' ),
 	},
 
 	output: {
