@@ -24,7 +24,7 @@ registerBlockType("responsive-block-editor-addons/testimonial", {
     "responsive-block-editor-addons"
   ),
   icon: "format-quote",
-  category: "responsive_block_editor_addons",
+  category: "widgets",
   keywords: [
     __("testimonial", "responsive-block-editor-addons"),
     __("quote", "responsive-block-editor-addons"),

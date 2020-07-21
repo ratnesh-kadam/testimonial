@@ -4,7 +4,7 @@
 import classnames from "classnames";
 import Inspector from "./inspector";
 import Testimonial from "./testimonial";
-import icons from "./../../../utils/components/icons";
+import icons from "./../../icons";
 
 /**
  * WordPress dependencies
