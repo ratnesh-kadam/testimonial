@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Gutenberg Block Testimonial
  * Description: Testimonial Block
- * Version:     1
+ * Version:     1.0.0
  * Author:      CyberChimps
  * Author URI:  https://github.com/ratnesh-kadam/testimonial.git
  * License:     GPL v2 or later
@@ -41,9 +41,5 @@ add_action( 'init', function() {
 		filemtime( __DIR__ . '/editor.css' )
 	);
 } );
-
-/**
- * AUTO-GENERATED blocks will be added here
- */
 
 include_once __DIR__ . '/blocks/testimonial.php';
