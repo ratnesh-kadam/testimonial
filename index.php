@@ -4,7 +4,7 @@
  * Description: Testimonial Block
  * Version:     1
  * Author:      CyberChimps
- * Author URI:  https://cyberchimps.com
+ * Author URI:  https://github.com/ratnesh-kadam/testimonial.git
  * License:     GPL v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
