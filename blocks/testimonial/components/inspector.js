@@ -25,15 +25,15 @@ export default class Inspector extends Component {
     const citeAlignOptions = [
       {
         value: "left-aligned",
-        label: __("Left Aligned", "responsive-block-editor-addons"),
+        label: __("Left Aligned", "testimonial"),
       },
       {
         value: "center-aligned",
-        label: __("Center Aligned", "responsive-block-editor-addons"),
+        label: __("Center Aligned", "testimonial"),
       },
       {
         value: "right-aligned",
-        label: __("Right Aligned", "responsive-block-editor-addons"),
+        label: __("Right Aligned", "testimonial"),
       },
     ];
 
@@ -58,7 +58,7 @@ export default class Inspector extends Component {
       <InspectorControls key="inspector">
         <PanelBody>
           <RangeControl
-            label={__("Font Size", "responsive-block-editor-addons")}
+            label={__("Font Size", "testimonial")}
             value={testimonialFontSize}
             onChange={(value) =>
               this.props.setAttributes({
@@ -70,10 +70,10 @@ export default class Inspector extends Component {
             step={1}
           />
           <SelectControl
-            label={__("Cite Alignment", "responsive-block-editor-addons")}
+            label={__("Cite Alignment", "testimonial")}
             description={__(
               "Left, center or right align the cite name and title.",
-              "responsive-block-editor-addons"
+              "testimonial"
             )}
             options={citeAlignOptions}
             value={testimonialCiteAlign}
@@ -85,24 +85,24 @@ export default class Inspector extends Component {
           />
         </PanelBody>
         <PanelColorSettings
-          title={__("Background Color", "responsive-block-editor-addons")}
+          title={__("Background Color", "testimonial")}
           initialOpen={false}
           colorSettings={[
             {
               value: testimonialBackgroundColor,
               onChange: onChangeBackgroundColor,
-              label: __("Background Color", "responsive-block-editor-addons"),
+              label: __("Background Color", "testimonial"),
             },
           ]}
         ></PanelColorSettings>
         <PanelColorSettings
-          title={__("Text Color", "responsive-block-editor-addons")}
+          title={__("Text Color", "testimonial")}
           initialOpen={false}
           colorSettings={[
             {
               value: testimonialTextColor,
               onChange: onChangeTextColor,
-              label: __("Text Color", "responsive-block-editor-addons"),
+              label: __("Text Color", "testimonial"),
             },
           ]}
         ></PanelColorSettings>

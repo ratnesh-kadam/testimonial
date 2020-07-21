@@ -18,17 +18,17 @@ const { registerBlockType } = wp.blocks;
 
 // Register the block
 registerBlockType("responsive-block-editor-addons/testimonial", {
-  title: __("Testimonial", "responsive-block-editor-addons"),
+  title: __("Testimonial", "testimonial"),
   description: __(
     "Add a user testimonial with a name and title.",
-    "responsive-block-editor-addons"
+    "testimonial"
   ),
   icon: "format-quote",
   category: "widgets",
   keywords: [
-    __("testimonial", "responsive-block-editor-addons"),
-    __("quote", "responsive-block-editor-addons"),
-    __("responsive", "responsive-block-editor-addons"),
+    __("testimonial", "testimonial"),
+    __("quote", "testimonial"),
+    __("responsive", "testimonial"),
   ],
   attributes: {
     testimonialName: {
@@ -77,16 +77,16 @@ registerBlockType("responsive-block-editor-addons/testimonial", {
   },
   responsive_block_editor_addons_settings_data: {
     responsive_block_editor_addons_testimonial_testimonialFontSize: {
-      title: __("Font Size", "responsive-block-editor-addons"),
+      title: __("Font Size", "testimonial"),
     },
     responsive_block_editor_addons_testimonial_testimonialCiteAlign: {
-      title: __("Cite Alignment", "responsive-block-editor-addons"),
+      title: __("Cite Alignment", "testimonial"),
     },
     responsive_block_editor_addons_testimonial_testimonialBackgroundColor: {
-      title: __("Background Color", "responsive-block-editor-addons"),
+      title: __("Background Color", "testimonial"),
     },
     responsive_block_editor_addons_testimonial_testimonialTextColor: {
-      title: __("Text Color", "responsive-block-editor-addons"),
+      title: __("Text Color", "testimonial"),
     },
   },
 

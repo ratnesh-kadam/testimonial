@@ -63,7 +63,7 @@ export default class Edit extends Component {
           multiline="p"
           placeholder={__(
             "Add testimonial text...",
-            "responsive-block-editor-addons"
+            "testimonial"
           )}
           keepPlaceholderOnFocus
           value={testimonialContent}
@@ -132,7 +132,7 @@ export default class Edit extends Component {
             <div className="responsive-block-editor-addons-testimonial-details">
               <RichText
                 tagName="h2"
-                placeholder={__("Add name", "responsive-block-editor-addons")}
+                placeholder={__("Add name", "testimonial")}
                 keepPlaceholderOnFocus
                 value={testimonialName}
                 className="responsive-block-editor-addons-testimonial-name"
@@ -149,7 +149,7 @@ export default class Edit extends Component {
 
               <RichText
                 tagName="small"
-                placeholder={__("Add title", "responsive-block-editor-addons")}
+                placeholder={__("Add title", "testimonial")}
                 keepPlaceholderOnFocus
                 value={testimonialTitle}
                 className="responsive-block-editor-addons-testimonial-title"
