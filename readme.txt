@@ -14,5 +14,5 @@ Testimonial Block
 
 == Changelog ==
 
-= 1.0.0 - 21st April 2020 =
+= 1.0.0 - 21st July 2020 =
 * Initial release
